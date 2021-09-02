@@ -22,7 +22,7 @@ Feature: Register for Ringo account
     And I agree to the Terms and Conditions and Privacy option
     And I click Next button
     Then error in the form is dispalyed
-    And "Email address is required" msg is displayed under the "<MobileNumber>" field
+    And "Mobile number is required" msg is displayed under the "<MobileNumber>" field
 
     Examples:
       |MobileNumber|EmailAddress|Password|
